@@ -1,0 +1,4 @@
+<launch>
+ <node pkg="simple_publisher" type="talker.py" name="talker" 
+       args="--venv $(find ros_virtual_env)/your-venv" output="screen"/>
+</launch>
